@@ -37,13 +37,6 @@
       "prompt": "Given an array prices where prices[i] is the price of a given stock on the i-th day, maximize profit by choosing a single day to buy and a different day in the future to sell."
     },
     {
-      "id": "climbing-stairs",
-      "title": "Climbing Stairs",
-      "difficulty": "easy",
-      "topic": "dp",
-      "prompt": "You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?"
-    },
-    {
       "id": "product-except-self",
       "title": "Product of Array Except Self",
       "difficulty": "medium",
@@ -112,13 +105,6 @@
       "difficulty": "medium",
       "topic": "design",
       "prompt": "Design a data structure that follows the constraints of a Least Recently Used (LRU) cache. Implement get and put in O(1)."
-    },
-    {
-      "id": "word-break",
-      "title": "Word Break",
-      "difficulty": "medium",
-      "topic": "dp",
-      "prompt": "Given a string s and a dictionary of strings wordDict, return true if s can be segmented into a space-separated sequence of one or more dictionary words."
     },
     {
       "id": "house-robber",
@@ -210,9 +196,7 @@
       "difficulty": "medium",
       "topic": "monotonic-stack",
       "prompt": "Given an array of integers temperatures, return an array answer such that answer[i] is the number of days you have to wait after the i-th day to get a warmer temperature."
-    }
-  ],
-  "replenish_pool": [
+    },
     {
       "id": "sliding-window-max",
       "title": "Sliding Window Maximum",
@@ -226,7 +210,9 @@
       "difficulty": "medium",
       "topic": "interval",
       "prompt": "Given an array of intervals, merge all overlapping intervals."
-    },
+    }
+  ],
+  "replenish_pool": [
     {
       "id": "insert-interval",
       "title": "Insert Interval",

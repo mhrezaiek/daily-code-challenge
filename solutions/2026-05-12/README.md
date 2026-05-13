@@ -2,15 +2,15 @@
 
 Solved 2 problem(s) today:
 
-- **Maximum Subarray** (medium, dp) — `maximum-subarray.py`
-- **Coin Change** (medium, dp) — `coin-change.py`
+- **Climbing Stairs** (easy, dp) — `climbing-stairs.py`
+- **Word Break** (medium, dp) — `word-break.py`
 
 ## Prompts
 
-### Maximum Subarray
+### Climbing Stairs
 
-> Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+> You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
 
-### Coin Change
+### Word Break
 
-> Given an integer array coins and an integer amount, return the fewest number of coins that you need to make up that amount. If that amount cannot be made up, return -1.
+> Given a string s and a dictionary of strings wordDict, return true if s can be segmented into a space-separated sequence of one or more dictionary words.
