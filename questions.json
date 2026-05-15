@@ -2,13 +2,6 @@
   "_comment": "Master question pool. Each run picks a random subset, solves them, then removes them and tops the pool back up from `replenish_pool`.",
   "active_pool": [
     {
-      "id": "two-sum",
-      "title": "Two Sum",
-      "difficulty": "easy",
-      "topic": "array-hashmap",
-      "prompt": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume each input has exactly one solution, and you may not use the same element twice."
-    },
-    {
       "id": "valid-parentheses",
       "title": "Valid Parentheses",
       "difficulty": "easy",
@@ -35,13 +28,6 @@
       "difficulty": "easy",
       "topic": "dp-greedy",
       "prompt": "Given an array prices where prices[i] is the price of a given stock on the i-th day, maximize profit by choosing a single day to buy and a different day in the future to sell."
-    },
-    {
-      "id": "product-except-self",
-      "title": "Product of Array Except Self",
-      "difficulty": "medium",
-      "topic": "array",
-      "prompt": "Given an integer array nums, return an array answer such that answer[i] is the product of all elements of nums except nums[i]. Solve in O(n) without using division."
     },
     {
       "id": "group-anagrams",
@@ -86,13 +72,6 @@
       "prompt": "Given the root of a binary tree, determine if it is a valid binary search tree."
     },
     {
-      "id": "number-of-islands",
-      "title": "Number of Islands",
-      "difficulty": "medium",
-      "topic": "graph-bfs-dfs",
-      "prompt": "Given an m x n 2D binary grid which represents a map of '1's (land) and '0's (water), return the number of islands."
-    },
-    {
       "id": "course-schedule",
       "title": "Course Schedule",
       "difficulty": "medium",
@@ -121,13 +100,6 @@
       "prompt": "You are given an n x n 2D matrix representing an image, rotate the image by 90 degrees (clockwise), in-place."
     },
     {
-      "id": "spiral-matrix",
-      "title": "Spiral Matrix",
-      "difficulty": "medium",
-      "topic": "array-matrix",
-      "prompt": "Given an m x n matrix, return all elements of the matrix in spiral order."
-    },
-    {
       "id": "kth-largest",
       "title": "Kth Largest Element in an Array",
       "difficulty": "medium",
@@ -140,13 +112,6 @@
       "difficulty": "medium",
       "topic": "heap",
       "prompt": "Given an integer array nums and an integer k, return the k most frequent elements."
-    },
-    {
-      "id": "implement-trie",
-      "title": "Implement Trie (Prefix Tree)",
-      "difficulty": "medium",
-      "topic": "design-trie",
-      "prompt": "Implement a trie with insert, search, and startsWith methods."
     },
     {
       "id": "longest-palindromic-substring",
@@ -184,20 +149,6 @@
       "prompt": "Write an algorithm to determine if a number n is happy. A happy number is defined by the process of replacing the number by the sum of the squares of its digits until it equals 1 or loops."
     },
     {
-      "id": "evaluate-rpn",
-      "title": "Evaluate Reverse Polish Notation",
-      "difficulty": "medium",
-      "topic": "stack",
-      "prompt": "Evaluate the value of an arithmetic expression in Reverse Polish Notation."
-    },
-    {
-      "id": "daily-temperatures",
-      "title": "Daily Temperatures",
-      "difficulty": "medium",
-      "topic": "monotonic-stack",
-      "prompt": "Given an array of integers temperatures, return an array answer such that answer[i] is the number of days you have to wait after the i-th day to get a warmer temperature."
-    },
-    {
       "id": "sliding-window-max",
       "title": "Sliding Window Maximum",
       "difficulty": "hard",
@@ -210,9 +161,7 @@
       "difficulty": "medium",
       "topic": "interval",
       "prompt": "Given an array of intervals, merge all overlapping intervals."
-    }
-  ],
-  "replenish_pool": [
+    },
     {
       "id": "insert-interval",
       "title": "Insert Interval",
@@ -261,7 +210,9 @@
       "difficulty": "medium",
       "topic": "graph-bfs",
       "prompt": "Given an m x n grid where each cell can have one of three values, return the minimum number of minutes that must elapse until no cell has a fresh orange."
-    },
+    }
+  ],
+  "replenish_pool": [
     {
       "id": "kth-smallest-bst",
       "title": "Kth Smallest Element in a BST",
@@ -302,7 +253,7 @@
       "title": "Reorder List",
       "difficulty": "medium",
       "topic": "linked-list",
-      "prompt": "You are given the head of a singly linked-list. Reorder the list to: L0 \u2192 Ln \u2192 L1 \u2192 Ln-1 \u2192 L2 \u2192 Ln-2 \u2192 \u2026"
+      "prompt": "You are given the head of a singly linked-list. Reorder the list to: L0 → Ln → L1 → Ln-1 → L2 → Ln-2 → …"
     },
     {
       "id": "valid-anagram",
