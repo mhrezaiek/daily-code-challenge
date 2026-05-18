@@ -9,13 +9,6 @@
       "prompt": "Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. Brackets must close in the correct order."
     },
     {
-      "id": "reverse-linked-list",
-      "title": "Reverse Linked List",
-      "difficulty": "easy",
-      "topic": "linked-list",
-      "prompt": "Given the head of a singly linked list, reverse the list, and return the reversed list."
-    },
-    {
       "id": "merge-two-sorted-lists",
       "title": "Merge Two Sorted Lists",
       "difficulty": "easy",
@@ -37,13 +30,6 @@
       "prompt": "Given an array of strings strs, group the anagrams together."
     },
     {
-      "id": "longest-substring-no-repeat",
-      "title": "Longest Substring Without Repeating Characters",
-      "difficulty": "medium",
-      "topic": "sliding-window",
-      "prompt": "Given a string s, find the length of the longest substring without repeating characters."
-    },
-    {
       "id": "container-with-most-water",
       "title": "Container With Most Water",
       "difficulty": "medium",
@@ -56,13 +42,6 @@
       "difficulty": "medium",
       "topic": "two-pointer",
       "prompt": "Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i, j, k are distinct and nums[i] + nums[j] + nums[k] == 0."
-    },
-    {
-      "id": "binary-tree-inorder",
-      "title": "Binary Tree Inorder Traversal",
-      "difficulty": "easy",
-      "topic": "tree",
-      "prompt": "Given the root of a binary tree, return the inorder traversal of its nodes' values."
     },
     {
       "id": "validate-bst",
@@ -91,13 +70,6 @@
       "difficulty": "medium",
       "topic": "dp",
       "prompt": "You are a professional robber planning to rob houses along a street. You cannot rob two adjacent houses. Given an integer array nums representing the amount of money of each house, return the maximum amount of money you can rob tonight."
-    },
-    {
-      "id": "rotate-image",
-      "title": "Rotate Image",
-      "difficulty": "medium",
-      "topic": "array-matrix",
-      "prompt": "You are given an n x n 2D matrix representing an image, rotate the image by 90 degrees (clockwise), in-place."
     },
     {
       "id": "kth-largest",
@@ -198,34 +170,18 @@
       "prompt": "Given an array of distinct integers candidates and a target integer target, return a list of all unique combinations of candidates where the chosen numbers sum to target."
     },
     {
-      "id": "word-search",
-      "title": "Word Search",
-      "difficulty": "medium",
-      "topic": "backtracking-grid",
-      "prompt": "Given an m x n grid of characters board and a string word, return true if word exists in the grid."
-    },
-    {
       "id": "rotting-oranges",
       "title": "Rotting Oranges",
       "difficulty": "medium",
       "topic": "graph-bfs",
       "prompt": "Given an m x n grid where each cell can have one of three values, return the minimum number of minutes that must elapse until no cell has a fresh orange."
-    }
-  ],
-  "replenish_pool": [
+    },
     {
       "id": "kth-smallest-bst",
       "title": "Kth Smallest Element in a BST",
       "difficulty": "medium",
       "topic": "tree",
       "prompt": "Given the root of a binary search tree, and an integer k, return the kth smallest value in the tree."
-    },
-    {
-      "id": "lowest-common-ancestor",
-      "title": "Lowest Common Ancestor of a Binary Tree",
-      "difficulty": "medium",
-      "topic": "tree",
-      "prompt": "Given a binary tree, find the lowest common ancestor of two given nodes."
     },
     {
       "id": "max-depth-bt",
@@ -254,7 +210,9 @@
       "difficulty": "medium",
       "topic": "linked-list",
       "prompt": "You are given the head of a singly linked-list. Reorder the list to: L0 → Ln → L1 → Ln-1 → L2 → Ln-2 → …"
-    },
+    }
+  ],
+  "replenish_pool": [
     {
       "id": "valid-anagram",
       "title": "Valid Anagram",
