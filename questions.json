@@ -23,27 +23,6 @@
       "prompt": "Given an array prices where prices[i] is the price of a given stock on the i-th day, maximize profit by choosing a single day to buy and a different day in the future to sell."
     },
     {
-      "id": "group-anagrams",
-      "title": "Group Anagrams",
-      "difficulty": "medium",
-      "topic": "hashmap",
-      "prompt": "Given an array of strings strs, group the anagrams together."
-    },
-    {
-      "id": "container-with-most-water",
-      "title": "Container With Most Water",
-      "difficulty": "medium",
-      "topic": "two-pointer",
-      "prompt": "Given an integer array height of length n, find two lines that together with the x-axis form a container, such that the container contains the most water."
-    },
-    {
-      "id": "3sum",
-      "title": "3Sum",
-      "difficulty": "medium",
-      "topic": "two-pointer",
-      "prompt": "Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i, j, k are distinct and nums[i] + nums[j] + nums[k] == 0."
-    },
-    {
       "id": "validate-bst",
       "title": "Validate Binary Search Tree",
       "difficulty": "medium",
@@ -91,13 +70,6 @@
       "difficulty": "medium",
       "topic": "dp-string",
       "prompt": "Given a string s, return the longest palindromic substring in s."
-    },
-    {
-      "id": "search-rotated-sorted",
-      "title": "Search in Rotated Sorted Array",
-      "difficulty": "medium",
-      "topic": "binary-search",
-      "prompt": "Given a rotated sorted array nums and an integer target, return the index of target if it is in nums, or -1."
     },
     {
       "id": "unique-paths",
@@ -149,20 +121,6 @@
       "prompt": "Given an m x n matrix of non-negative integers representing heights, return a list of grid coordinates where water can flow to both Pacific and Atlantic oceans."
     },
     {
-      "id": "subsets",
-      "title": "Subsets",
-      "difficulty": "medium",
-      "topic": "backtracking",
-      "prompt": "Given an integer array nums of unique elements, return all possible subsets."
-    },
-    {
-      "id": "permutations",
-      "title": "Permutations",
-      "difficulty": "medium",
-      "topic": "backtracking",
-      "prompt": "Given an array nums of distinct integers, return all the possible permutations."
-    },
-    {
       "id": "combination-sum",
       "title": "Combination Sum",
       "difficulty": "medium",
@@ -205,15 +163,6 @@
       "prompt": "Given head, the head of a linked list, determine if the linked list has a cycle in it."
     },
     {
-      "id": "reorder-list",
-      "title": "Reorder List",
-      "difficulty": "medium",
-      "topic": "linked-list",
-      "prompt": "You are given the head of a singly linked-list. Reorder the list to: L0 → Ln → L1 → Ln-1 → L2 → Ln-2 → …"
-    }
-  ],
-  "replenish_pool": [
-    {
       "id": "valid-anagram",
       "title": "Valid Anagram",
       "difficulty": "easy",
@@ -233,13 +182,6 @@
       "difficulty": "medium",
       "topic": "hashset",
       "prompt": "Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence in O(n)."
-    },
-    {
-      "id": "find-min-rotated",
-      "title": "Find Minimum in Rotated Sorted Array",
-      "difficulty": "medium",
-      "topic": "binary-search",
-      "prompt": "Given the sorted rotated array nums, return the minimum element of this array."
     },
     {
       "id": "search-2d-matrix",
@@ -269,5 +211,6 @@
       "topic": "dp-knapsack",
       "prompt": "Given a non-empty array nums containing only positive integers, find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal."
     }
-  ]
+  ],
+  "replenish_pool": []
 }
