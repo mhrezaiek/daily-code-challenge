@@ -16,20 +16,6 @@
       "prompt": "Merge two sorted linked lists and return it as a sorted list."
     },
     {
-      "id": "best-time-to-buy-sell-stock",
-      "title": "Best Time to Buy and Sell Stock",
-      "difficulty": "easy",
-      "topic": "dp-greedy",
-      "prompt": "Given an array prices where prices[i] is the price of a given stock on the i-th day, maximize profit by choosing a single day to buy and a different day in the future to sell."
-    },
-    {
-      "id": "validate-bst",
-      "title": "Validate Binary Search Tree",
-      "difficulty": "medium",
-      "topic": "tree",
-      "prompt": "Given the root of a binary tree, determine if it is a valid binary search tree."
-    },
-    {
       "id": "course-schedule",
       "title": "Course Schedule",
       "difficulty": "medium",
@@ -65,25 +51,11 @@
       "prompt": "Given an integer array nums and an integer k, return the k most frequent elements."
     },
     {
-      "id": "longest-palindromic-substring",
-      "title": "Longest Palindromic Substring",
-      "difficulty": "medium",
-      "topic": "dp-string",
-      "prompt": "Given a string s, return the longest palindromic substring in s."
-    },
-    {
       "id": "unique-paths",
       "title": "Unique Paths",
       "difficulty": "medium",
       "topic": "dp-grid",
       "prompt": "A robot is located at the top-left corner of a m x n grid. The robot can only move down or right. How many possible unique paths are there to reach the bottom-right corner?"
-    },
-    {
-      "id": "min-stack",
-      "title": "Min Stack",
-      "difficulty": "easy",
-      "topic": "design-stack",
-      "prompt": "Design a stack that supports push, pop, top, and retrieving the minimum element in constant time."
     },
     {
       "id": "happy-number",
@@ -114,13 +86,6 @@
       "prompt": "Insert a new interval into a list of non-overlapping intervals and merge if necessary."
     },
     {
-      "id": "pacific-atlantic",
-      "title": "Pacific Atlantic Water Flow",
-      "difficulty": "medium",
-      "topic": "graph-dfs",
-      "prompt": "Given an m x n matrix of non-negative integers representing heights, return a list of grid coordinates where water can flow to both Pacific and Atlantic oceans."
-    },
-    {
       "id": "combination-sum",
       "title": "Combination Sum",
       "difficulty": "medium",
@@ -135,25 +100,11 @@
       "prompt": "Given an m x n grid where each cell can have one of three values, return the minimum number of minutes that must elapse until no cell has a fresh orange."
     },
     {
-      "id": "kth-smallest-bst",
-      "title": "Kth Smallest Element in a BST",
-      "difficulty": "medium",
-      "topic": "tree",
-      "prompt": "Given the root of a binary search tree, and an integer k, return the kth smallest value in the tree."
-    },
-    {
       "id": "max-depth-bt",
       "title": "Maximum Depth of Binary Tree",
       "difficulty": "easy",
       "topic": "tree",
       "prompt": "Given the root of a binary tree, return its maximum depth."
-    },
-    {
-      "id": "diameter-bt",
-      "title": "Diameter of Binary Tree",
-      "difficulty": "easy",
-      "topic": "tree",
-      "prompt": "Given the root of a binary tree, return the length of the diameter of the tree."
     },
     {
       "id": "linked-list-cycle",
@@ -175,13 +126,6 @@
       "difficulty": "medium",
       "topic": "design-string",
       "prompt": "Design an algorithm to encode a list of strings to a single string. The encoded string is then sent over the network and is decoded back to the original list of strings."
-    },
-    {
-      "id": "longest-consecutive",
-      "title": "Longest Consecutive Sequence",
-      "difficulty": "medium",
-      "topic": "hashset",
-      "prompt": "Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence in O(n)."
     },
     {
       "id": "search-2d-matrix",
