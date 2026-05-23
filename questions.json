@@ -9,20 +9,6 @@
       "prompt": "Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. Brackets must close in the correct order."
     },
     {
-      "id": "merge-two-sorted-lists",
-      "title": "Merge Two Sorted Lists",
-      "difficulty": "easy",
-      "topic": "linked-list",
-      "prompt": "Merge two sorted linked lists and return it as a sorted list."
-    },
-    {
-      "id": "course-schedule",
-      "title": "Course Schedule",
-      "difficulty": "medium",
-      "topic": "graph-topo",
-      "prompt": "There are numCourses you have to take, labeled from 0 to numCourses - 1. You are given an array prerequisites. Return true if you can finish all courses."
-    },
-    {
       "id": "lru-cache",
       "title": "LRU Cache",
       "difficulty": "medium",
@@ -77,13 +63,6 @@
       "difficulty": "medium",
       "topic": "interval",
       "prompt": "Given an array of intervals, merge all overlapping intervals."
-    },
-    {
-      "id": "insert-interval",
-      "title": "Insert Interval",
-      "difficulty": "medium",
-      "topic": "interval",
-      "prompt": "Insert a new interval into a list of non-overlapping intervals and merge if necessary."
     },
     {
       "id": "combination-sum",
