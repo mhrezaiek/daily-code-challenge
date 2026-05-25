@@ -1,77 +1,95 @@
 # Daily Code Challenge
 
-Daily algorithm practice that doubles as steady GitHub contribution-graph activity.
+Daily algorithm and data-science practice. Each day's batch lives in
+`solutions/YYYY-MM-DD/` with a per-folder README explaining the
+approach, complexity, and pitfalls of each problem.
 
-## How it works
+## Stats
 
-Each day at 9:00 the scheduled task runs `scripts/daily_pick.py`, which:
+- **Total solved:** 8
+- **Current streak:** active (latest entry 2026-05-14)
+- **Last 7 days bucket coverage:** `dp` ×3, `classic-dsa` ×2, `trees-graphs` ×1, `ml-coding` ×1, `sql` ×1
 
-1. Seeds Python's RNG with the date so the day's picks are reproducible.
-2. With ~10% probability, declares a **rest day** and writes nothing — this keeps
-   the graph looking organic instead of suspiciously uniform.
-3. Otherwise picks 1–4 problems from `questions.json -> active_pool`.
-4. Writes `solutions/YYYY-MM-DD/README.md` listing the day's prompts.
-5. Removes the chosen questions from `active_pool` and refills it from `replenish_pool`.
+### Breakdown by bucket
 
-Solutions themselves are written into `solutions/YYYY-MM-DD/<problem>.py`,
-each with assertion-based tests at the bottom. Run any file directly
-(`python3 maximum_subarray.py`) to verify.
+| Bucket                   | Count |
+|--------------------------|-------|
+| classic-dsa              | 2     |
+| dp                       | 3     |
+| trees-graphs             | 1     |
+| ml-coding                | 1     |
+| sql                      | 1     |
+| pandas                   | 0     |
+| numerical-matrix         | 0     |
+| probability-stats        | 0     |
+| system-design-adjacent   | 0     |
 
-## Layout
+### Breakdown by difficulty
+
+| Difficulty | Count |
+|------------|-------|
+| easy       | 1     |
+| medium     | 6     |
+| hard       | 1     |
+
+## Topic rotation (data-scientist focused)
+
+1. Classic DSA — arrays, strings, two-pointer, sliding window, hashing
+2. Trees & graphs — BFS, DFS, topological sort, union-find, shortest paths
+3. Dynamic programming — 1D, 2D, knapsack, LIS, interval DP
+4. ML-coding — k-means, gradient descent, logistic regression, k-NN, softmax, attention, etc.
+5. Numerical / matrix — NumPy puzzles, linear algebra
+6. SQL — window functions, joins, aggregations
+7. Pandas — group-bys, transformations, time-series
+8. Probability & stats — sampling, A/B math, Bayesian puzzles
+9. System-design-adjacent — LRU, rate limiter, tokenizer, consistent hashing
+
+## Repo layout
 
 ```
 daily-code-challenge/
-├── README.md                   # this file
-├── questions.json              # active_pool + replenish_pool (state)
+├── README.md             # this file (stats + overview)
+├── backlog.md            # researched problems queued for future days
+├── solved-index.md       # every problem ever solved (de-dup ledger)
+├── questions.json        # legacy curated pool used by scripts/daily_pick.py
 ├── scripts/
-│   ├── daily_pick.py           # picks today's problems, rotates the pool
-│   └── push_to_github.sh       # commits today's folder and pushes
+│   ├── daily_pick.py     # random selection over the curated pool
+│   └── push_to_github.sh # one-shot commit + push helper
 └── solutions/
-    └── 2026-05-12/
-        ├── README.md
-        ├── maximum_subarray.py
-        └── coin_change.py
+    └── YYYY-MM-DD/
+        ├── README.md                       # day summary + per-problem write-up
+        └── <bucket>-<slug>.(py|sql)        # one file per problem
 ```
 
-## One-time GitHub setup
+## Daily workflow (automated agent)
 
-The sandbox where the scheduled task runs has **no git credentials**, so it
-can't push to your account on its own. Do this once on your own machine,
-then point the schedule at the clone:
+A scheduled agent runs every morning and:
 
-```bash
-# 1. Create a private repo on GitHub, e.g. `daily-code-challenge`.
-# 2. Clone it somewhere persistent and copy this project's contents into it:
-git clone git@github.com:<your-username>/daily-code-challenge.git
-cp -R /path/to/this/folder/* daily-code-challenge/
-cd daily-code-challenge
-git add . && git commit -m "Initial pool + 2026-05-12 solutions" && git push
+1. Researches 5–10 new problems across the buckets above, appending to
+   `backlog.md`.
+2. Selects 3–5 (max 5) for today, biasing toward buckets uncovered in
+   the last 5 days and keeping a difficulty mix.
+3. Solves each into `solutions/YYYY-MM-DD/<bucket>-<slug>.(py|sql)`
+   with tests, complexity notes, and a per-folder README.
+4. Updates `solved-index.md`, prunes solved entries from `backlog.md`,
+   and refreshes these stats.
+5. Commits and pushes to `main`.
 
-# 3. Make sure `git push` works from cron / launchd without prompting:
-#    - Use an SSH key with no passphrase loaded into ssh-agent at login, OR
-#    - Use a Personal Access Token stored via `git credential-helper osxkeychain`.
-```
+All Python solutions ship with an `if __name__ == "__main__":` block
+that runs assertion-based tests — `python3 <file>.py` exits 0 on
+success.
 
-After that, future scheduled runs only need to:
-1. Re-run `scripts/daily_pick.py` (already done — it persists state in-place).
-2. Add the new files and `git commit && git push`.
+## Quality bar
 
-`scripts/push_to_github.sh` does steps 1 and 2 in one shot.
+- No brute force unless it is genuinely optimal (justified in the
+  per-problem README if so).
+- Every problem traces to a real source URL — no fabrication.
+- No repeats from `solved-index.md`.
+- ML-coding solutions are written from scratch in NumPy, with an
+  optional cross-check against scikit-learn when applicable.
 
-## Tuning
+## Today (2026-05-14)
 
-Edit constants at the top of `scripts/daily_pick.py`:
-
-- `DAILY_RANGE = (1, 4)` — min/max problems per active day.
-- `REST_DAY_PROB = 0.10` — fraction of days that skip entirely.
-
-To make the graph **more** active, raise the upper bound and lower the rest probability.
-To make it **less** active, do the opposite.
-
-## Notes from today's run (2026-05-12)
-
-- This sandbox has no GitHub credentials, so today's solutions were only written
-  to disk — not pushed. After completing the one-time setup above, run
-  `scripts/push_to_github.sh 2026-05-12` to retroactively push today's commit.
-- Picked: **Maximum Subarray** (Kadane's) and **Coin Change** (bottom-up DP).
-- Both files include built-in assertion tests; `python3 <file>.py` exits 0 on success.
+Buckets covered today: `classic-dsa`, `trees-graphs`, `ml-coding`, `sql`.
+See [`solutions/2026-05-14/README.md`](solutions/2026-05-14/README.md)
+for the full write-up.
