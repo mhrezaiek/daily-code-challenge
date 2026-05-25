@@ -16,13 +16,6 @@
       "prompt": "Design a data structure that follows the constraints of a Least Recently Used (LRU) cache. Implement get and put in O(1)."
     },
     {
-      "id": "house-robber",
-      "title": "House Robber",
-      "difficulty": "medium",
-      "topic": "dp",
-      "prompt": "You are a professional robber planning to rob houses along a street. You cannot rob two adjacent houses. Given an integer array nums representing the amount of money of each house, return the maximum amount of money you can rob tonight."
-    },
-    {
       "id": "kth-largest",
       "title": "Kth Largest Element in an Array",
       "difficulty": "medium",
@@ -35,13 +28,6 @@
       "difficulty": "medium",
       "topic": "heap",
       "prompt": "Given an integer array nums and an integer k, return the k most frequent elements."
-    },
-    {
-      "id": "unique-paths",
-      "title": "Unique Paths",
-      "difficulty": "medium",
-      "topic": "dp-grid",
-      "prompt": "A robot is located at the top-left corner of a m x n grid. The robot can only move down or right. How many possible unique paths are there to reach the bottom-right corner?"
     },
     {
       "id": "happy-number",
@@ -98,20 +84,6 @@
       "difficulty": "easy",
       "topic": "hashmap-string",
       "prompt": "Given two strings s and t, return true if t is an anagram of s."
-    },
-    {
-      "id": "encode-decode-strings",
-      "title": "Encode and Decode Strings",
-      "difficulty": "medium",
-      "topic": "design-string",
-      "prompt": "Design an algorithm to encode a list of strings to a single string. The encoded string is then sent over the network and is decoded back to the original list of strings."
-    },
-    {
-      "id": "search-2d-matrix",
-      "title": "Search a 2D Matrix",
-      "difficulty": "medium",
-      "topic": "binary-search",
-      "prompt": "You are given an m x n integer matrix with sorted rows and a target integer. Return true if target is in matrix."
     },
     {
       "id": "decode-ways",
