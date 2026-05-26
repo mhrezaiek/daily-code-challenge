@@ -23,13 +23,6 @@
       "prompt": "Given an integer array nums and an integer k, return the kth largest element in the array."
     },
     {
-      "id": "top-k-frequent",
-      "title": "Top K Frequent Elements",
-      "difficulty": "medium",
-      "topic": "heap",
-      "prompt": "Given an integer array nums and an integer k, return the k most frequent elements."
-    },
-    {
       "id": "happy-number",
       "title": "Happy Number",
       "difficulty": "easy",
@@ -56,13 +49,6 @@
       "difficulty": "medium",
       "topic": "backtracking",
       "prompt": "Given an array of distinct integers candidates and a target integer target, return a list of all unique combinations of candidates where the chosen numbers sum to target."
-    },
-    {
-      "id": "rotting-oranges",
-      "title": "Rotting Oranges",
-      "difficulty": "medium",
-      "topic": "graph-bfs",
-      "prompt": "Given an m x n grid where each cell can have one of three values, return the minimum number of minutes that must elapse until no cell has a fresh orange."
     },
     {
       "id": "max-depth-bt",
