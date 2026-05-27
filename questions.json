@@ -9,13 +9,6 @@
       "prompt": "Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. Brackets must close in the correct order."
     },
     {
-      "id": "lru-cache",
-      "title": "LRU Cache",
-      "difficulty": "medium",
-      "topic": "design",
-      "prompt": "Design a data structure that follows the constraints of a Least Recently Used (LRU) cache. Implement get and put in O(1)."
-    },
-    {
       "id": "kth-largest",
       "title": "Kth Largest Element in an Array",
       "difficulty": "medium",
@@ -35,13 +28,6 @@
       "difficulty": "hard",
       "topic": "deque",
       "prompt": "Given an array nums and a sliding window of size k, return the max element in each window."
-    },
-    {
-      "id": "merge-intervals",
-      "title": "Merge Intervals",
-      "difficulty": "medium",
-      "topic": "interval",
-      "prompt": "Given an array of intervals, merge all overlapping intervals."
     },
     {
       "id": "combination-sum",
@@ -77,13 +63,6 @@
       "difficulty": "medium",
       "topic": "dp-string",
       "prompt": "A message containing letters from A-Z can be encoded into numbers (A=1, ..., Z=26). Given a string s containing only digits, return the number of ways to decode it."
-    },
-    {
-      "id": "longest-increasing-subseq",
-      "title": "Longest Increasing Subsequence",
-      "difficulty": "medium",
-      "topic": "dp",
-      "prompt": "Given an integer array nums, return the length of the longest strictly increasing subsequence."
     },
     {
       "id": "partition-equal-subset",
