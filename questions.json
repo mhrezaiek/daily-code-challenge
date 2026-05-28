@@ -16,13 +16,6 @@
       "prompt": "Given an integer array nums and an integer k, return the kth largest element in the array."
     },
     {
-      "id": "happy-number",
-      "title": "Happy Number",
-      "difficulty": "easy",
-      "topic": "math-hashset",
-      "prompt": "Write an algorithm to determine if a number n is happy. A happy number is defined by the process of replacing the number by the sum of the squares of its digits until it equals 1 or loops."
-    },
-    {
       "id": "sliding-window-max",
       "title": "Sliding Window Maximum",
       "difficulty": "hard",
