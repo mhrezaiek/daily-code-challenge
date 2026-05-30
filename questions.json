@@ -9,20 +9,6 @@
       "prompt": "Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. Brackets must close in the correct order."
     },
     {
-      "id": "kth-largest",
-      "title": "Kth Largest Element in an Array",
-      "difficulty": "medium",
-      "topic": "heap",
-      "prompt": "Given an integer array nums and an integer k, return the kth largest element in the array."
-    },
-    {
-      "id": "sliding-window-max",
-      "title": "Sliding Window Maximum",
-      "difficulty": "hard",
-      "topic": "deque",
-      "prompt": "Given an array nums and a sliding window of size k, return the max element in each window."
-    },
-    {
       "id": "combination-sum",
       "title": "Combination Sum",
       "difficulty": "medium",
@@ -30,25 +16,11 @@
       "prompt": "Given an array of distinct integers candidates and a target integer target, return a list of all unique combinations of candidates where the chosen numbers sum to target."
     },
     {
-      "id": "max-depth-bt",
-      "title": "Maximum Depth of Binary Tree",
-      "difficulty": "easy",
-      "topic": "tree",
-      "prompt": "Given the root of a binary tree, return its maximum depth."
-    },
-    {
       "id": "linked-list-cycle",
       "title": "Linked List Cycle",
       "difficulty": "easy",
       "topic": "linked-list",
       "prompt": "Given head, the head of a linked list, determine if the linked list has a cycle in it."
-    },
-    {
-      "id": "valid-anagram",
-      "title": "Valid Anagram",
-      "difficulty": "easy",
-      "topic": "hashmap-string",
-      "prompt": "Given two strings s and t, return true if t is an anagram of s."
     },
     {
       "id": "decode-ways",
