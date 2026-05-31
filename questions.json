@@ -2,27 +2,6 @@
   "_comment": "Master question pool. Each run picks a random subset, solves them, then removes them and tops the pool back up from `replenish_pool`.",
   "active_pool": [
     {
-      "id": "valid-parentheses",
-      "title": "Valid Parentheses",
-      "difficulty": "easy",
-      "topic": "stack",
-      "prompt": "Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. Brackets must close in the correct order."
-    },
-    {
-      "id": "combination-sum",
-      "title": "Combination Sum",
-      "difficulty": "medium",
-      "topic": "backtracking",
-      "prompt": "Given an array of distinct integers candidates and a target integer target, return a list of all unique combinations of candidates where the chosen numbers sum to target."
-    },
-    {
-      "id": "linked-list-cycle",
-      "title": "Linked List Cycle",
-      "difficulty": "easy",
-      "topic": "linked-list",
-      "prompt": "Given head, the head of a linked list, determine if the linked list has a cycle in it."
-    },
-    {
       "id": "decode-ways",
       "title": "Decode Ways",
       "difficulty": "medium",
